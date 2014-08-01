@@ -1,0 +1,263 @@
+/*--------------------------------
+      DataTable
+--------------------------------*/
+
+
+.dataTables_scroll{overflow:hidden;}
+.dataTables_wrapper{margin:-1px 0;}
+.dataTables_wrapper .ui-widget-header{
+	font-weight:normal;
+	background-color: #4c5766;
+	position:relative;
+	padding:10px;
+	text-shadow:0px 1px 0px #000;
+	}
+	
+.dataTables_length{
+	color:white;
+	float:left;
+	line-height:20px;
+	}
+
+.dataTables_filter{
+	color:white;
+	float:right;
+	line-height:20px;
+	width: 180px;
+	display:block;
+	}
+.dataTables_wrapper .dataTables_filter input{
+	height:18px;
+	display:inline;
+	width: 120px;
+	}
+	
+.dataTables_wrapper .ui-widget-header input{
+	margin:0 0 0 5px;
+    border: 1px solid #000000;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;}
+
+.dataTables_wrapper .ui-widget-header select{
+	margin:0 5px;
+    border: 1px solid #000000;}
+
+.dataTables_scrollHeadInner {	
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #AAAAAA;
+	}
+.dataTables_scrollHeadInner table{margin-bottom:0;}
+.dataTables_scrollHeadInner table thead tr{margin-right:-1px;}
+.dataTables_scrollHeadInner table thead tr th{
+border:none;
+background:none;
+position:relative;}
+
+.DataTables_sort_wrapper{
+	background:none;
+	padding:10px 5px 10px 20px; 
+	text-align:left;
+	font-size: 1em;
+	color:#333;
+	text-shadow: 0 1px 0 #FFFFFF;
+	
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #AAAAAA;
+	position:relative;
+	
+	font-weight: normal; 
+	}
+
+	
+.DataTables_sort_wrapper:hover{color:#0a4e98; cursor:pointer;}
+	
+.DataTables_sort_wrapper span{ position:absolute; left:5px; top:8px;}
+
+.dataTables_scrollBody table{margin-bottom:0;}
+.dataTables_scrollBody tbody tr td{ line-height:20px;}
+table.display td{ padding: 3px 10px;}
+table.display tr.odd {
+background-color: #edf1f3;
+border-bottom:1px solid #d8dcde;
+}
+table.display tr.even {
+background-color: #dee1e3;
+border-bottom:1px solid #e1e5e7;
+}
+
+table.display tr.even:hover,table.display tr.odd:hover{background-color:#E6ECEF;}
+
+.dataTables_info{color:white; float:left;  line-height:26px;}
+.dataTables_paginate{
+	float:right; 
+	margin-right:0px;
+	padding-right:10px;
+	padding-left:10px;
+}
+	
+.dataTables_wrapper .dataTables_paginate span.fg-button{
+	background-image:none;
+	background-color:#DFE2E4;
+	text-shadow: 0 1px 0 #FFFFFF;
+	color:#333;
+    border-bottom: 1px solid #aaa;
+	border-left:1px solid white;
+	border-top:1px solid white;
+	border-right:1px solid #aaa;
+	padding-right:10px;
+	padding-left:10px;
+	margin:0;
+	filter:none !important;
+}
+	
+.dataTables_wrapper .dataTables_paginate span.first{
+	padding-right:10px;
+	padding-left:10px;
+    border-left: 1px solid white;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+	
+.dataTables_wrapper .dataTables_paginate span.last{
+	padding-right:10px;
+	padding-left:10px;
+    border-right: 1px solid #fff;
+	}
+
+.dataTables_wrapper .dataTables_paginate span.ui-state-disabled{
+	padding-right:10px;
+	padding-left:10px;
+	opacity:1; 
+	color:#888 !important;
+	}
+
+.dataTables_wrapper .dataTables_paginate span span.ui-state-disabled{
+	padding-right:10px;
+	padding-left:10px;
+	background-image:none;
+	text-shadow: 0 1px 0 #000;
+	background-color: #4C5766;
+	border: 1px solid #333333;
+    color: #FFFFFF !important;
+	opacity:1;}
+	
+.dataTables_wrapper .dataTables_paginate .ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled {
+	padding-right:10px;
+	padding-left:10px;
+	opacity: .35;
+	filter: Alpha(Opacity=35);
+	background-image: none;
+}
+
+.dataTables_wrapper .dataTables_paginate .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	padding-right:10px;
+	padding-left:10px;
+	border: 1px solid #d3d3d3/*{borderColorDefault}*/;
+	background: #e6e6e6/*{bgColorDefault}*/ url(images/ui-bg_glass_75_e6e6e6_1x400.png)/*{bgImgUrlDefault}*/ 50%/*{bgDefaultXPos}*/ 50%/*{bgDefaultYPos}*/ repeat-x/*{bgDefaultRepeat}*/;
+	font-weight: normal/*{fwDefault}*/;
+	color: #555555/*{fcDefault}*/;
+}
+
+.box .no_padding .dataTables_wrapper .ui-corner-tl{
+	
+	padding-right:10px;
+	padding-left:10px;
+	color:#333;
+	text-shadow: 0 1px 0 #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #AAAAAA;
+	border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #AAAAAA;
+	background-image:none;
+	background-color:#DFE2E4;
+	
+	
+	
+	}
+
+.no_padding .dataTables_wrapper .ui-corner-tl input,.no_padding .dataTables_wrapper .ui-corner-tl select{border: 1px solid #999; background-color: #fff;}
+
+
+/* File Browser Style */
+ul.jqueryFileTree{margin: 0 0 20px;}
+li.expanded ul.jqueryFileTree{margin: 0 0 0px;}
+ul.jqueryFileTree li:last-child{ border-bottom:none;}
+
+ul.jqueryFileTree li.expanded > a{ margin-bottom:20px;}
+
+ul.jqueryFileTree li.collapsed:last-child{margin-bottom:0; padding-bottom:0;}
+ul.jqueryFileTree li.file:last-child{margin-bottom:0; padding-bottom:2px;}
+
+
+/*----- End of DataTable -------*/
+
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-bottom: 0px;
+	line-height:1;
+}
+
+
+/* Coloured Header Gradients, eg. Sortable Boxes, Tab Boxes, Date-picker, etc. */
+
+
+.dataTables_wrapper .ui-widget-header
+{
+
+background: #4c5766; /* old browsers */
+
+background: -moz-linear-gradient(top, #4c5766 0%, #313841 99%); /* firefox */
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c5766), color-stop(99%,#313841)); /* webkit */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c5766', endColorstr='#313841',GradientType=0 ); /* ie */
+
+
+border:1px solid #313841;
+	
+zoom:1;
+}
+
+
+/* Grey Header Gradients eg. Nav, Sidebar, Accordion, etc. */
+
+
+
+.dataTables_scrollHead
+{
+
+background: #DFE2E4; /* old browsers */
+
+background: -moz-linear-gradient(top, #E6ECEF 0%, #D0D6DA 99%); /* firefox */
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E6ECEF), color-stop(99%,#D0D6DA)); /* webkit */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E6ECEF', endColorstr='#D0D6DA',GradientType=0 ); /* ie */
+	
+
+zoom:1;
+}
+
+
+
+
+
+
+.dataTables_wrapper .ui-widget-header,
+.dataTables_scrollHeadInner{
+filter:none\9 !important;
+}

@@ -1,0 +1,36 @@
+.ord_label{
+	float: left;
+	font-weight: bold;
+	padding-left: 10px;
+	width: 230px;
+	cursor:text;
+}
+
+.days-fieldset{
+	border: 1px solid #DCDBDA;
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-top: 0;
+	width: 160px;
+	padding-left:10px;
+}
+
+.booking_calender 
+{
+	margin-bottom:10px;
+}
+
+.time_slot 
+{
+	font-family:inherit;
+}
+
+.show_time_slot 
+{
+	margin-bottom:10px;
+}
+
+.day-checkbox{
+ 
+}
